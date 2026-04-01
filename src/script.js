@@ -51,16 +51,27 @@
 //If they are 18 and above, display that they can sign up for tiktok
 // If they are less than 18 display that they can't sign up tiktok
 
-let name = prompt("What is your name?")
-let answer = prompt("How old are you?")
-let email = prompt("What is your email?")
+// let name = prompt("What is your name?")
+// let answer = prompt("How old are you?")
+// let email = prompt("What is your email?")
 
-if(answer < 12) {
-    alert(`Hello ${name}. You are ${answer} years old and you are too young to register. Sorry😞😞`)
-} else if(12 < answer && answer < 18){
-    alert(`Hello ${name}. You are ${answer} years old and you have limited options to register for. We will keep you in touch via your mail: ${email}.👋👋👋`)
-} else if(answer >= 18){
-    alert(`Hello ${name}. You are ${answer} years old and you can register for any option of your choosing. We will keep you in touch via your mail: ${email}.👋👋👋`)
+// if(answer < 12) {
+//     alert(`Hello ${name}. You are ${answer} years old and you are too young to register. Sorry😞😞`)
+// } else if(12 < answer && answer < 18){
+//     alert(`Hello ${name}. You are ${answer} years old and you have limited options to register for. We will keep you in touch via your mail: ${email}.👋👋👋`)
+// } else if(answer >= 18){
+//     alert(`Hello ${name}. You are ${answer} years old and you can register for any option of your choosing. We will keep you in touch via your mail: ${email}.👋👋👋`)
+// }else{
+//     alert(`You must be 12 years old`)
+// }
+
+
+function checkGender(){
+   let gender = prompt("What is your gender? Male or Female?")
+    if(gender === "Male"){
+        alert(`You are a boy👦`)
+    } else if(gender === "Female"){
+        alert(`You are a girl👧`)
+    }
 }
-
-
+    
